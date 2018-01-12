@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBAction func buttonTapped(_ sender: UIButton) {
-        print("you finished")
+        print("now you really finished")
 
     }
     
