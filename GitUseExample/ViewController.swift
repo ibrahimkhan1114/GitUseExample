@@ -9,10 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        print("This is a git tutorial")
 
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,4 +28,5 @@ class ViewController: UIViewController {
 
 
 }
+
 
